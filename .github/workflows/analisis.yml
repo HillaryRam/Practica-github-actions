@@ -1,14 +1,14 @@
-[cite_start]name: Analisis de Action Checkout  # 
+name: Analisis de Action Checkout
 
-[cite_start]on: [push]  # Evento que dispara la action 
+on: [push]
 
-[cite_start]jobs:  # 
+jobs:
   build:
-    [cite_start]runs-on: ubuntu-latest  # Entorno de ejecución 
+    runs-on: ubuntu-latest
 
-    [cite_start]steps:  # Pasos a seguir 
+    steps:
       - name: Checkout del codigo
-        [cite_start]uses: actions/checkout@v4  # Uso de 'uses' 
+        uses: actions/checkout@v4
 
       - name: Verificar archivos
-        [cite_start]run: ls -R  # Uso de 'run' 
+        run: ls -R
