@@ -30,9 +30,9 @@ jobs:
 | Variables de entorno | En este workflow básico no se han requerido, pero permitirían configurar credenciales o parámetros dinámicos.|
 
 ## 4. Explicación de pasos
-Step 1: actions/checkout@v4 descarga el código fuente.
+Paso 1: actions/checkout@v4 descarga el código fuente.
 
-Step 2: ls -R lista los archivos para confirmar que la descarga fue exitosa.
+Paso 2: ls -R lista los archivos para confirmar que la descarga fue exitosa.
 ## 5. Ejecución
 Se ejecuta automáticamente al hacer push.
 
